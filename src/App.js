@@ -9,7 +9,7 @@ const App = () => {
     <TodoProvider>
       <Container className="mt-5">
         <h2 className="text-center">To-Do App</h2>
-        <p><b>GitHub Link</b> : <a href="https://github.com/a-javalkote/tutedude-todo-app" target="_blank">Click Here</a></p>
+        <p><b>GitHub Link</b> : <a href="https://github.com/a-javalkote/tutedude-todo-app" target="_blank" rel="noreferrer" >Click Here</a></p>
         <TodoInput />
         <TodoList />
       </Container>
